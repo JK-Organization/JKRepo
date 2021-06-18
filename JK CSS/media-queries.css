@@ -4,6 +4,7 @@
 
 .hidden-on-desktop {
 
+
 }
 
 .nav-links{
@@ -12,11 +13,13 @@
 
 .nav-links>li>a{
   color: green;
-
+  flex-direction: column;
 
 }
 
 .header-img{
+  display: flex;
+
 
 }
 
@@ -29,12 +32,8 @@
 
 }
 
-/* screen sizes between 960px and 1200px */
-@media screen and (min-width:200px) and (max-width:499px) {
-
-}
 
 /* screen sizes between 960px and 1200px */
-@media screen and (min-width:500px) {
+@media screen and (min-width:992px) {
 
 }
