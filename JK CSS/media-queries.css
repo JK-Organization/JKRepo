@@ -61,16 +61,17 @@ ul.nav-links {
 
 .header-img{
   display: flex;
-
-
 }
 
 
 .main{
-
 }
-
-.sub-section{
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#social-media-links{
 
 }
 
